@@ -1,0 +1,104 @@
+/* WINNING BACKGROUND */
+div	img{
+	margin-top: 125px;
+	width: 500px;
+	margin-left: 30px;
+}
+
+#winningback{
+	display: none;
+	background-color: black;
+	width: 2000px;
+	height: 1000px;
+	padding:0px;
+	z-index: 0px;
+	position: fixed;	
+	margin: 0px;
+
+}
+
+.winclass{
+	color: #6FFF00;
+	font-family: Audiowide;
+	font-size: 100px;
+	text-shadow: 5px 5px 5px #6FFF00;
+	float: left;
+	padding-left: 200px;
+	padding-top: 250px;
+	margin: 0px;
+	
+}
+
+/* END OF WINNING CSS */
+
+#alien{
+	margin:200px;
+}
+
+
+
+body{
+	background-image: url('images/background.jpg');
+	background-size: 100%;
+}
+
+.cell{
+	height: 135px;
+	width: 135px;
+	border: 6px solid #FFCCFF;
+	box-shadow: inset 0px 0px 6px 6px #FF00FF , 0px 0px 6px 6px #FF00FF ;
+	background-color: black;
+	float: left;
+}
+
+#board{
+	text-align: center;
+	margin: 0 auto;
+	
+	width: 460px;
+	height: 460px;
+	border: 10px solid #fff;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	border-radius: 10%;
+	box-shadow: inset 0px 0px 10px 10px #00FFFF, 0px 0px 10px 10px #00FFFF;
+}
+
+.cellclick{
+	background-image: url('images/neonX.png');
+	background-size: 100%;
+}
+.cellclick2{
+	background-image: url('images/neonO.png');
+	background-size: 100%;
+}
+.rows {
+	clear: both;
+}
+
+h1{
+	text-align: center;	
+	font-size: 80px;
+	color: white;
+	text-shadow: 5px 5px 5px #FFFF00;
+	font-family: Audiowide;
+
+}
+
+/* fix set timeout
+fix black background
+remove x and o's
+
+
+
+/*Neon Green: #6FFF00 
+Neon Pink: #FF00FF 
+Neon Yellow: #FFFF00 
+Neon Blue: #4D4DFF 
+Neon Red: #FE0001 
+Neon Orange: #FF4105 
+Neon Purple: #993CF3 */
+
+
